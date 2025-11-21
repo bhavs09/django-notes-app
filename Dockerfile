@@ -20,4 +20,4 @@ ENV MYSQL_HOST=db-host \
     MYSQL_PASSWORD=db-pass \
     MYSQL_DATABASE=db-name
 
-CMD ["python", "/app/backend/manage.py", "runserver", "0.0.0.0:8000"]
+CMD python /app/backend/manage.py runserver 0.0.0.0:8000
